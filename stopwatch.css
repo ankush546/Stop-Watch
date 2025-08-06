@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+}
+
+.container {
+    height: 50px;
+    position: absolute;
+    top: 150px;
+    color: white;
+    left: 500px;
+    font-size: 90px;
+}
+
+.start {
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    border: 2px grey;
+}
+
+.lap {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+}
+
+.stop {
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    display: none;
+    background-color: red;
+}
+
+.reset {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    background-color: white;
+    display: none;
+}
+
+.lapcontainer {
+    height: 50px;
+    position: absolute;
+    top: 400px;
+    color: white;
+    left: 550px;
+    font-size: 60px;
+
+}
